@@ -14,18 +14,19 @@
     <link rel="stylesheet" href="index.css">
 
     <title>FAQ accordion</title>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
       <div class="card">
         <h1><img src="./assets/images/icon-star.svg" alt="">FAQs</h1>
 
-        <h4>
+        <h4 class="question">
           What is Frontend Mentor, and how will it help me?
-          <img src="./assets/images/icon-minus.svg" alt="collapse" />
+          <img src="./assets/images/icon-plus.svg" alt="collapse" />
         </h4>
 
-        <p>
+        <p class="answer hidden">
           Frontend Mentor offers realistic coding challenges to help developers
           improve their frontend coding skills with projects in HTML, CSS, and
           JavaScript. It's suitable for all levels and ideal for portfolio
@@ -39,11 +40,11 @@
           />
         </h4>
 
-        <!-- <p>
+        <p class="answer hidden">
           Yes, Frontend Mentor offers both free and premium coding challenges,
           with the free option providing access to a range of projects suitable
           for all skill levels.
-        </p> -->
+        </p>
         <h4>
           Can I use Frontend Mentor projects in my portfolio?<img
             src="./assets/images/icon-plus.svg"
@@ -51,11 +52,11 @@
           />
         </h4>
 
-        <!-- <p>
+        <p class="answer hidden">
           Yes, you can use projects completed on Frontend Mentor in your
           portfolio. It's an excellent way to showcase your skills to potential
           employers!
-        </p> -->
+        </p>
 
         <h4>
           How can I get help if I'm stuck on a Frontend Mentor challenge?<img
@@ -64,11 +65,11 @@
           />
         </h4>
 
-        <!-- <p>
+        <p class="answer hidden">
           The best place to get help is inside Frontend Mentor's Discord
           community. There's a help channel where you can ask questions and seek
           support from other community members.
-        </p> -->
+        </p>
       </div>
     </div>
   </body>
