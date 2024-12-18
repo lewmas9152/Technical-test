@@ -8,8 +8,9 @@
 
 body {
   background-image: url(./assets/images/background-pattern-mobile.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   height: 100vh;
+  width: 100vw;
   background-color: hsl(33, 43%, 92%);
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
@@ -26,21 +27,22 @@ h1 {
 }
 
 h4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 p {
-    color: var(--text_color);
+  color: var(--text_color);
 }
 
 .container {
   margin: 1rem;
   background-color: var(--background_color);
-margin-top: 10rem;
+  margin-top: 10rem;
   padding: 1rem;
   border-radius: 1rem;
+  justify-self: center;
 }
 
 .card {
@@ -56,4 +58,14 @@ margin-top: 10rem;
 
 .hidden {
   display: none;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+  }
+
+  .container {
+    max-width: 500px;
+  }
 }
