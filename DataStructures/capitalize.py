@@ -8,7 +8,10 @@ def capitalize_words(input_string):
     # Join the capitalized words back into a single string
     return ' '.join(capitalized_words.values())
 
+#  for loop to enter a string and capitalize the words
 
-input_string = input("Enter a string: ")
-result = capitalize_words(input_string)
-print(result)
+for i in range(3):
+    input_string = input("Enter a string: ")
+    result = capitalize_words(input_string)
+    print(result)
+

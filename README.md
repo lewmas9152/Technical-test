@@ -11,7 +11,9 @@ I wrote a Python program that accepts a string as input and capitalizes the firs
 
 ---
 
+# Illustration
 
+![Capitalize](faq/assets/capitalize.png)
 
 
 
@@ -27,7 +29,18 @@ I created a basic FAQ accordion where the answers are displayed when a question 
 3. **Icons change**: The icon changes to indicate whether the answer is visible or not (from plus to minus).
 4. **Responsiveness**: A media query is used to ensure the accordion is responsive on different screen sizes.
 
-**Live Link:**  
+
+# Illustrations
+**Desktop**
+
+![Desktop](faq/assets/desktop.png)
+
+**Mobile**
+
+![FAQ Illustration](faq/assets/mobile.png)
+
+
+**Live Demo:**  
 [FAQ Accordion - Live Demo](https://technical-test-git-main-samwel-njugunas-projects.vercel.app/)
 
 ---
